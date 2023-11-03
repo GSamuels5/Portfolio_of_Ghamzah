@@ -51,5 +51,22 @@ h1{
     padding: 10px;
     border-radius: 10% 0 10% 0;
 }
+/*education*/
+h2{
+    font-size: 40px;
+    text-decoration: underline
+
+}
+.education{
+    font-size: 24px;
+    padding-left: 10px;
+    background-color: aqua;
+    border-radius: 5% 5% 10% 10%;
+    font-weight: bold
+
+}
+li{
+    list-style: none
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&display=swap');
