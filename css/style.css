@@ -5,3 +5,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+background-image: url(https://i.postimg.cc/CLn2rS8K/wp9553630.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+background:linear-gradient(#ffe);
+}
+.navbar{
+    justify-items: flex-start;
+font-size: 19px;
+    height: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 0;
+}
+.navbar a:hover{
+    background: pink;
+    transition: 0.4ms;
+    border-right: 2px;
+
+
+}
+/*home*/
+h1{
+    font-size: 60px;
+    text-decoration: underline;
+    text-shadow: 24%;
+}
+.img-fluid{
+    height: 300px
+}
+.item1,.item2{
+    font-style: oblique;
+    font-size:60px
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&display=swap');
