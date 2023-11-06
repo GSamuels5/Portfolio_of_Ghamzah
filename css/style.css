@@ -97,4 +97,10 @@ width: 250px;
 width: 200px;
 height: 180px;
 }
+button{
+    margin: 4px;
+    padding: 4px;
+    background-color: black;
+    color: #ffe;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&display=swap');
