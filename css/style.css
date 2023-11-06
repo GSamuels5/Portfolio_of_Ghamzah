@@ -105,7 +105,20 @@ button{
 }
 /*testimonials*/
 .testimon{
-    height: 350px;
-    height: 400px;
+    height: 450px;
+    width: 700px;
+    align-items: center;
+    margin-left: 160px;
+
 }
+.carousel-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-caption{
+background-color: grey;
+border-radius: 10%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&display=swap');
