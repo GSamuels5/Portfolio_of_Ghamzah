@@ -45,7 +45,7 @@
             <a class="nav-link" href="#testimonials">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reach me</a>
+            <a class="nav-link" href="#reach_me">Reach me</a>
           </li>
         </ul>
       </div>
@@ -54,7 +54,7 @@
   <main class="container-fluid">
     <section class="container">
       <div class="row gap-lg-1 mt-5">
-        <div class="col">
+        <div class="home col">
           <h2 class="item1">Ghamzah Samuels</h2>
 
           <h3 class="item2">
@@ -87,10 +87,12 @@
       </section>
       <section class="container my-4" id="education">
         <a href="#education">
+          
           <h1>Education</h1>
         </a>
         <h2 class="text-primary">School</h2>
-        <div class="education d-flex w-75">
+        
+        <div class="education d-flex flex-sm-wrap w-75">
           <div class="mx-3">
             <p>Highest Grade Passed :</p>
             <p>Year :</p>
@@ -163,6 +165,7 @@
             <p>2019</p>
           </div>
         </div>
+      </div>
       </section>
       <section class="container" id="skills">
         <a href="#skills">
@@ -172,7 +175,7 @@
         <div class="card">
           <div class="card-header ">
             <h2>Bootstrap</h2>
-            <div class="boot-img img-fluid img-thumbnail">
+            <div class="boot-img ">
               <img
 
                 src="https://i.postimg.cc/LsBMddg7/image.png"
@@ -241,8 +244,8 @@
         <a href="#projects">
           <h1>Projects</h1>
         </a>
-        <div class="container d-flex mx-1">
-        <div class="card m-lg-1">
+        <div class="row d-flex d-sm-block mx-1">
+        <div class="card m-lg-1 ">
           <div class="card-header">
             <img class="img-fluid" src="https://i.postimg.cc/y8NXH7Z3/Screenshot-2023-11-03-145515.png" alt="keyboard">
             
@@ -423,28 +426,34 @@
         <a href="#reach_me">
           <h1 class="my-3">Reach me</h1>
         </a>
-        <h2>Reach Me</h2>
-        <form action="https://formspree.io/f/mrgwrklb">
-            <div>
-                <label for="">First name</label>
-                <input type="text" placeholder="enter your name" required >
+        <div class="formation">
+        <form action="https://formspree.io/f/mrgwrklb" method="post">
+            <div class="forming row-cols-1">
+                <label for="firtname">First name</label>
+                <input type="text" id="firtname" placeholder="enter your name" required >
             </div>
-            <div>
-                <label for="">Last name</label>
-                <input type="text" placeholder="enter your lastname" required >
+            <div class="forming row-cols-1" >
+                <label  for="Lastname">Last name</label>
+                <input type="text" id="lastname" placeholder="enter your lastname" required  >
             </div>
-            <div>
+            <div class="forming row-cols-1">
                 <label for="emailAdd">Email</label>
                 <input type="email" placeholder="enter your Email Address" required id="emailAdd" name="emailAdd">
             </div>
+            <div class="forming row-cols-1">
                 <label for="message">Message</label>
                 <textarea name="message" id="message" placeholder="Please enter your message" cols="30" rows="10" required ></textarea>
-            </div>
-            <div>
+              </div>
+            <div class="forming row-cols-1">
                 <button type="submit">Submit</button>
             </div>
         </form>
+      </div>
       </section>
+      <footer class="container-fluid bg-black text-light">
+        <p>Copyright &copy;2023</p> 
+      </footer>
+      
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
